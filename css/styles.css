@@ -86,25 +86,46 @@ font-weight: bold;
 .its-pretty-simple h5{
     color:#043669 ;
 }
-
-.Apply-as-a-worker2{
-    background: white;
-}
-.footer{
-
-    background: #0e127a;
-    color: white;
-    margin-bottom: 0px;
-    padding: 20px 0px;
-}
 .greenBlock{
     background-color: #4ed967;
     margin-bottom: -2rem;
     border-radius: 10px;
     text-align: center;
 }
+
+.greenBlock .content{
+    width: 70%;
+}
+.greenBlock  .Apply-as-a-worker{
+background: rgba(255,255,255,1);
+width: 250px;
+height: 60px;
+border-radius: 10px;
+padding-top: 20px;
+text-align: center;
+display:inline-block;
+color: #4ed967;
+margin:0 auto;
+}
+
+.greenBlock h1{
+color: white;
+font-weight: bold;
+}
+.greenBlock p{
+color: white;
+line-height: 1.44;
+
+}
+.footer{
+
+background: #043669;
+color: white;
+margin-bottom: 0px;
+padding: 20px 0px;
+}
 footer h3{
-    font-weight: bold;
+font-weight: bold;
 
 }
 
