@@ -1,0 +1,128 @@
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+/*.navbar-nav.navbar-center {*/
+/*text-align: center;*/
+/*}*/
+.Apply-as-a-worker {
+
+    background: rgba(188,217,248,0.31);
+    width: 211px;
+    height: 40px;
+    border-radius: 10px;
+    padding-top: 8px;
+    text-align: center;
+    display:inline-block;
+    color: #043669;
+    margin:0 auto;
+}
+
+nav li{
+opacity: 1;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+color: black;
+}
+
+.Apply-as-a-worker:hover{
+    background: rgba(188,217,248,1);
+    text-decoration: none;
+}
+
+
+.Find-Your-Next-Work{
+background-image: linear-gradient(to top, rgba(235, 245, 255, 0), #d3e8fd);
+padding-top: 20px;
+}
+.Find-Your-Next-Work h1{
+line-height: 1.12;
+font-size: 8vw;
+font-weight: bold;
+color: #043669;
+}
+.Find-Your-Next-Work p {
+width: 50%;
+font-size: 1.5vw;
+}
+.Find-Your-Next-Work h5{
+    color: #043669;
+}
+
+
+.Be-smart h1{
+    line-height: 1.28;
+    color: black;
+    padding-top: 50px;
+    font-weight: bold;
+}
+.Be-smart p{
+    font-weight: bold;
+    padding-top: 30px;
+    line-height: 1.5;
+    opacity: 0.51;
+}
+
+.icons h4{
+font-weight: bold;
+}
+.icons p{
+    line-height: 2;
+    opacity: 0.51;
+}
+
+.its-pretty-simple h1{
+font-weight: bold;
+}
+.its-pretty-simple p{
+    opacity: 0.51;
+
+}
+.its-pretty-simple h5{
+    color:#043669 ;
+}
+
+.Apply-as-a-worker2{
+    background: white;
+}
+.footer{
+
+    background: #0e127a;
+    color: white;
+    margin-bottom: 0px;
+    padding: 20px 0px;
+}
+.greenBlock{
+    background-color: #4ed967;
+    margin-bottom: -2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+footer h3{
+    font-weight: bold;
+
+}
+
+
+@media screen and (min-width: 960px) {
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-65%);
+    }
+    nav .Apply-as-a-worker{
+        position: absolute;
+        right: 10%;
+    }
+    .its-pretty-simple .content{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+

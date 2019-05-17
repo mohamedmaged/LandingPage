@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>6B09F723-6947-4AE9-9415-BADEC4966E6A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M7.5,15 C3.358,15 0,11.642 0,7.5 C0,3.358 3.358,0 7.5,0 C11.642,0 15,3.358 15,7.5 C15,11.642 11.642,15 7.5,15 Z" id="path-1"></path>
+    </defs>
+    <g id="Websiite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page" transform="translate(-176.000000, -1809.000000)">
+            <g id="Group-3" transform="translate(176.000000, 1809.000000)">
+                <g id="Group-14">
+                    <path d="M17.9471964,-7.25088215e-16 L82.0528036,4.27780189e-15 C88.2934348,3.13141654e-15 90.5564384,0.649779278 92.8379199,1.86992893 C95.1194014,3.09007857 96.9099214,4.88059859 98.1300711,7.16208008 C99.3502207,9.44356156 100,11.7065652 100,17.9471964 L100,82.0528036 C100,88.2934348 99.3502207,90.5564384 98.1300711,92.8379199 C96.9099214,95.1194014 95.1194014,96.9099214 92.8379199,98.1300711 C90.5564384,99.3502207 88.2934348,100 82.0528036,100 L17.9471964,100 C11.7065652,100 9.44356156,99.3502207 7.16208008,98.1300711 C4.88059859,96.9099214 3.09007857,95.1194014 1.86992893,92.8379199 C0.649779278,90.5564384 2.80864756e-16,88.2934348 -4.83392144e-16,82.0528036 L4.03610582e-15,17.9471964 C3.27184892e-15,11.7065652 0.649779278,9.44356156 1.86992893,7.16208008 C3.09007857,4.88059859 4.88059859,3.09007857 7.16208008,1.86992893 C9.44356156,0.649779278 11.7065652,4.21297134e-16 17.9471964,-7.25088215e-16 Z" id="Rectangle" fill="#4A90E2"></path>
+                    <g id="Location-2-(Filled)" transform="translate(35.000000, 29.000000)">
+                        <path d="M15,43 C25,33.1895 30,23.856 30,15 C30,6.7155 23.2845,0 15,0 C6.7155,0 0,6.7155 0,15 C0,23.856 5,33.1895 15,43 Z" id="Stroke-1" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <g id="Group-5" transform="translate(7.000000, 8.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-4"></g>
+                            <polygon id="Fill-3" fill="#FFFFFF" mask="url(#mask-2)" points="-0.01 15 15.05 15 15.05 0 -0.01 0"></polygon>
+                        </g>
+                        <path d="M14.5,23 C18.642,23 22,19.642 22,15.5 C22,11.358 18.642,8 14.5,8 C10.358,8 7,11.358 7,15.5 C7,19.642 10.358,23 14.5,23 Z" id="Stroke-6" stroke-opacity="0.246376812" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
