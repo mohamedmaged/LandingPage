@@ -124,7 +124,7 @@ font-weight: bold;
     color: white;
 }
 
-footer .text-center a{
+footer .list-elements a{
     color: white;
     text-decoration: none;
     opacity: 0.51;
@@ -132,7 +132,7 @@ footer .text-center a{
     display: block;
 
 }
-footer .text-center a:hover{
+footer .list-elements a:hover{
     color: white;
     text-decoration: none;
 }
@@ -151,6 +151,7 @@ footer p{
     display:inline-block;
     color: #043669;
     margin-top: 30px;
+
 }
 .subscribe-rectangle{
     width: auto;
@@ -158,6 +159,13 @@ footer p{
     border-radius: 20px;
     border: solid 1px rgba(255, 255, 255, 0.2);
     background-color: rgba(255, 255, 255, 0.04);
+    padding: 35px;
+}
+.subscribe-rectangle a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.51;
+
 }
 
 @media screen and (min-width: 960px) {
