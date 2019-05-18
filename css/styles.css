@@ -167,6 +167,9 @@ footer p{
     opacity: 0.51;
 
 }
+.simple-background{
+    background: url("../images/mobilemask.svg");
+}
 
 @media screen and (min-width: 960px) {
     .navbar-nav.navbar-center {
