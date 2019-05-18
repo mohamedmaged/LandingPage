@@ -35,8 +35,8 @@ color: black;
 
 
 .Find-Your-Next-Work{
-background-image: linear-gradient(to top, rgba(235, 245, 255, 0), #d3e8fd);
-padding-top: 20px;
+    background-image: linear-gradient(to top, rgba(235, 245, 255, 0.51), rgba(229, 242, 255, 0.61), rgba(223, 239, 254, 0.71), #d9ebfe, #d3e8fd);
+    padding-top: 20px;
 }
 .Find-Your-Next-Work h1{
 line-height: 1.12;
@@ -180,7 +180,7 @@ footer p{
 .simple-background{
     object-fit: contain;
     /*transform: rotate(-90deg);*/
-    background-image: url("../images/mobilemask.svg"),linear-gradient(270deg, rgba(235, 245, 255, 0), #89a2b9);
+    background-image: url("../images/mobilemask.svg"),linear-gradient(270deg, rgba(235, 245, 255, 0), #c2e7ff);
 
 }
 
