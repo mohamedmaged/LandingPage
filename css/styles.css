@@ -168,9 +168,7 @@ footer p{
 
 }
 .simple-background{
-    /*background: url("../images/mobilemask.svg");*/
-    background-image: linear-gradient(to top, rgba(235, 245, 255, 0), #d3e8fd);
-
+    background: url("../images/mobilemask.svg");
 }
 
 @media screen and (min-width: 960px) {
