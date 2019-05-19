@@ -224,7 +224,7 @@ footer ul {
     list-style-image: url("../images/left-angle-bracket.png");
     background-position: left center;
     padding: 0;
-    list-style-position: outside;
+    list-style-position: inside;
     /*display: inline-block;*/
     /*text-align: left;*/
     /*text-align: center;*/
