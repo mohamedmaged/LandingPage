@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaa951de-c709-43ba-9020-bbf66abdfd0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="aaa951de-c709-43ba-9020-bbf66abdfd0f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="338" column="88" selection-start-line="338" selection-start-column="88" selection-end-line="338" selection-end-column="88" />
+            <state relative-caret-position="435">
+              <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -195,12 +193,12 @@
       <workItem from="1558193499306" duration="432000" />
       <workItem from="1558222303593" duration="1586000" />
       <workItem from="1558265612506" duration="21548000" />
-      <workItem from="1558297012937" duration="635000" />
+      <workItem from="1558297012937" duration="1776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82706000" />
+    <option name="totallyTimeSpent" value="83847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1537" height="912" extended-state="6" />
@@ -287,8 +285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="338" column="88" selection-start-line="338" selection-start-column="88" selection-end-line="338" selection-end-column="88" />
+        <state relative-caret-position="435">
+          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
         </state>
       </provider>
     </entry>
