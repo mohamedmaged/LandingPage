@@ -219,6 +219,7 @@ footer a:hover {
 
 footer li:hover{
     color: white;
+    transform: translateX(10px);
 }
 
 footer p {
@@ -240,6 +241,8 @@ footer li {
     font-size: 18px;
     color: #aaa;
     line-height: 1.6em;
+    transition: all .2s linear;
+
     /*list-style:none;*/
 
     /*display: inline-flex;*/
