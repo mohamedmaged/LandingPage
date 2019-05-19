@@ -217,6 +217,10 @@ footer a:hover {
     color: white;
 }
 
+footer li:hover{
+    color: white;
+}
+
 footer p {
     color: #aaa;
 }
@@ -240,7 +244,6 @@ footer li {
 
     /*display: inline-flex;*/
     /*align-items: center;*/
-
 }
 
 
