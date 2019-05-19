@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaa951de-c709-43ba-9020-bbf66abdfd0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="215" column="56" lean-forward="true" selection-start-line="215" selection-start-column="56" selection-end-line="215" selection-end-column="56" />
+            <state relative-caret-position="-106">
+              <caret line="177" column="90" selection-start-line="177" selection-start-column="90" selection-end-line="177" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -204,12 +202,12 @@
       <workItem from="1558093402543" duration="40193000" />
       <workItem from="1558193499306" duration="432000" />
       <workItem from="1558222303593" duration="1586000" />
-      <workItem from="1558265612506" duration="10805000" />
+      <workItem from="1558265612506" duration="11119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71328000" />
+    <option name="totallyTimeSpent" value="71642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1537" height="912" extended-state="6" />
@@ -229,7 +227,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.25218478" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.25218478" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -310,8 +308,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="215" column="56" lean-forward="true" selection-start-line="215" selection-start-column="56" selection-end-line="215" selection-end-column="56" />
+        <state relative-caret-position="-106">
+          <caret line="177" column="90" selection-start-line="177" selection-start-column="90" selection-end-line="177" selection-end-column="90" />
         </state>
       </provider>
     </entry>
