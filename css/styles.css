@@ -190,12 +190,12 @@ nav li {
 
 }
 
-.simple-background {
-    object-fit: contain;
-    /*transform: rotate(-90deg);*/
-    background-image: url("../images/mobilemask.svg"), linear-gradient(270deg, rgba(235, 245, 255, 0), #c2e7ff);
+/*.simple-background {*/
+/*    object-fit: contain;*/
+/*    !*transform: rotate(-90deg);*!*/
+/*    !*background-image: url("../images/mobilemask.svg"), linear-gradient(270deg, rgba(235, 245, 255, 0), #c2e7ff);*!*/
 
-}
+/*}*/
 
 .footer {
     background: #043669;
