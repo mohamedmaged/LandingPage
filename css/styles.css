@@ -152,36 +152,6 @@ nav li {
 
 }
 
-.footer {
-    background: #043669;
-    color: white;
-    margin-bottom: 0px;
-    padding: 20px 0px;
-}
-
-footer h5, footer h6 {
-    font-weight: bold;
-    color: white;
-}
-
-footer .list-elements a {
-    color: white;
-    text-decoration: none;
-    opacity: 0.51;
-    padding-top: 15px;
-    display: block;
-
-}
-
-footer .list-elements a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-footer p {
-    color: white;
-    opacity: 0.51;
-}
 
 #subscribe-button {
     background-color: white;
@@ -226,6 +196,56 @@ footer p {
     background-image: url("../images/mobilemask.svg"), linear-gradient(270deg, rgba(235, 245, 255, 0), #c2e7ff);
 
 }
+
+.footer {
+    background: #043669;
+    color: white;
+    margin-bottom: 0px;
+    padding: 20px 0px;
+}
+
+
+
+footer  a ,footer h3 {
+    text-decoration: none;
+    color: white;
+
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    color: #aaa;
+}
+footer ul {
+    list-style-image: url("../images/left-angle-bracket.png");
+    background-position: left center;
+    padding: 0;
+    list-style-position: outside;
+    /*display: inline-block;*/
+    /*text-align: left;*/
+    /*text-align: center;*/
+
+}
+footer li {
+    margin: 10px 0px 0px 0px;
+    /*display: inline;*/
+    font-size: 18px;
+    color: #aaa;
+    line-height: 1.6em;
+    /*list-style:none;*/
+
+    /*display: inline-flex;*/
+    /*align-items: center;*/
+
+}
+
+
+
+
 
 @media screen and (min-width: 960px) {
     .navbar-nav.navbar-center {
