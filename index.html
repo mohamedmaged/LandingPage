@@ -27,8 +27,6 @@
     <link href="images/favicon.ico"
           rel="icon"
           type="image/png">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"
-          rel="stylesheet">
 
     <title>Ana Mehani</title>
 
@@ -36,14 +34,14 @@
 
 <body>
 
-<div class="wrapper">
+<div class="wrapper d-flex">
 
 
     <!-- Sidebar -->
-    <nav id="sidebar">
-        <div class="container">
+    <nav id="sidebar" class="mx-auto ">
+        <div class="container pt-3">
 
-            <a href="#" class="text-decoration-none">
+            <a href="#" class="text-decoration-none ">
                 <div id="dismiss">
                     <i class="fas fa-chevron-left mr-1"></i>
                     close
@@ -55,57 +53,127 @@
                 <p>The sales channel  module provides the tools for creating and managing various types of sales channel. </p>
             </div>
 
-            <form action="">
-                <div class="form-group">
-                    <label for="full-name">Full name</label>
-                    <input type="text" class="form-control form-control-lg" id="full-name" placeholder="full name">
-                </div>
-                <div class="form-group">
-                    <label for="email">Your email address</label>
-                    <input type="email" class="form-control form-control-lg" id="email" placeholder="e-mail">
-                </div>
-                <div class="form-row">
-                    <div class="col-md-6 form-group ">
-                        <label for="country"> Country</label>
-                        <select name="country" id="country" class="custom-select custom-select-lg">
-                            <option selected>Choose...</option>
-                            <option value="eg">Egypt</option>
-                            <option value="pa">Palestine</option>
-                            <option value="sy">Syria</option>
-                            <option value="le">Lebanon</option>
-                            <option value="em">Emirates</option>
-                        </select>
+            <form action="" id="regForm">
+                <div class="formdata">
+                    <div class="form-row ">
+                        <div class="form-group col-md-6">
+                            <label for="full-name">Full name</label>
+                            <input type="text" class="form-control form-control-lg" id="full-name"
+                                   placeholder="full name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control form-control-lg" id="email" placeholder="e-mail">
+                        </div>
                     </div>
-                    <div class="col-md-6 form-group">
-                        <label for="city"> City</label>
-                        <select name="city" id="city" class="custom-select custom-select-lg">
-                            <option selected>Choose...</option>
-                        </select>
+                    <div class="form-row">
+                        <div class="col-md-6 form-group ">
+                            <label for="country"> Country</label>
+                            <select name="country" id="country" class="custom-select custom-select-lg">
+                                <option selected>Choose...</option>
+                                <option value="eg">Egypt</option>
+                                <option value="pa">Palestine</option>
+                                <option value="sy">Syria</option>
+                                <option value="le">Lebanon</option>
+                                <option value="em">Emirates</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="city"> City</label>
+                            <select name="city" id="city" class="custom-select custom-select-lg">
+                                <option selected>Choose...</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mobile">Your phone number</label>
+                        <input type="text" class="form-control form-control-lg" id="mobile" placeholder="mobile number">
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 form-group">
+                            <label for="inputPassword">Password</label>
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmPassword"
+                                   placeholder="Confirm Password">
+                        </div>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="acceptTerms">
+                        <label class="form-check-label" for="acceptTerms">By Clicking this you are agreeeing to the
+                            terms and conditions of AnaMehani</label>
                     </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="mobile">Your phone number</label>
-                    <input type="text" class="form-control form-control-lg" id="mobile" placeholder="mobile number">
-                </div>
-                <div class="form-row">
-                    <div class="col-md-6 form-group">
-                        <label for="inputPassword">Password</label>
-                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                <div class="formdata">
+                    <div class="form-row ">
+                        <div class="form-group col-md-6">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control form-control-lg" id="address"
+                                   placeholder="address">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="birthdate">Birth Date</label>
+                            <input type="date" class="form-control form-control-lg" id="birthdate" >
+                        </div>
                     </div>
-                    <div class="col-md-6 form-group">
-                        <label for="confirmPassword">Confirm Password</label>
-                        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+
+                    <div class="form-row">
+                        <div class="col-md-6 form-group ">
+                            <label for="major"> Major</label>
+                            <select name="major" id="major" class="custom-select custom-select-lg">
+                                <option selected>Choose...</option>
+                                <option value="Construction">Construction</option>
+                                <option value="Agriculture">Agriculture & Irrigation</option>
+                                <option value="Carpentry">Carpentry</option>
+                                <option value="Plumbing">Plumbing</option>
+                                <option value="Blacksmithing">Blacksmithing</option>
+                                <option value="Mechanical">Mechanical</option>
+                                <option value="Guarding">Guarding</option>
+                                <option value="Engineering">Engineering</option>
+                                <option value="Medicine">Medicine</option>
+                                <option value="Hygiene">Hygiene & Detergent</option>
+                                <option value="Other Professions">Other Professions</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="minor"> Minor</label>
+                            <select name="minor" id="minor" class="custom-select custom-select-lg">
+                                <option selected>Choose...</option>
+                            </select>
+                        </div>
                     </div>
+                    <div class="form-row">
+                        <div class="col-md-6 form-group ">
+                            <label for="gender"> Gender</label>
+                            <select name="gender" id="gender" class="custom-select custom-select-lg">
+                                <option selected>Choose...</option>
+                                <option value="male">Male</option>
+                                <option value="Female"> Female</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="tellMore"> Tell us about You</label>
+                            <textarea rows="4" id="tellMore" type="text" class="form-control form-control-lg" placeholder="Tell us more About You "></textarea>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="acceptTerms">
-                    <label class="form-check-label" for="acceptTerms">By Clicking this you are agreeeing to the terms and conditions of AnaMehani</label>
-                </div>
-                <div class="d-flex">
-                    <button type="submit" class="btn btn-primary w-75 text-center mx-auto">Submit</button>
-                </div>
+
+                    <div class="clearfix">
+                        <button type="button" id="prevBtn" class="btn btn-primary w-25  mr-5 mb-2 bg-dark" onclick="nextPrev(-1)">prev</button>
+                        <button type="button" id="nextBtn" class="btn btn-primary w-25  mr-5 mb-2 float-right" onclick="nextPrev(1)">Next</button>
+                    </div>
             </form>
+
+            <div style="text-align:center;margin-top:40px;">
+                <span class="step"></span>
+                <span class="step"></span>
+            </div>
+
         </div>
     </nav>
 <!--        all content -->
@@ -160,10 +228,10 @@
                 </p>
                 <h5>Download it now</h5>
                 <div class="d-flex">
-                    <a href="#"><img alt="Google App store" class="img-fluid "
+                    <a href="#"><img alt="Google App store" class="img-fluid mb-5"
                                      src="images/app-store-google-4-d-63-c-31-a-3-e.svg"></a>
-                    <a href="#"><img alt="Apple App store" class="img-fluid mx-3 mb-5"
-                                     src="images/app-store-apple-f-1-f-919205-b.svg"></a>
+<!--                    <a href="#"><img alt="Apple App store" class="img-fluid mx-3 mb-5"-->
+<!--                                     src="images/app-store-apple-f-1-f-919205-b.svg"></a>-->
                 </div>
             </div>
         </div>
@@ -187,8 +255,8 @@
                         <a href="#"><img alt="Google App store"
                                          class="img-fluid mr-sm-3 mr-0"
                                          src="images/app-store-google-4-d-63-c-31-a-3-e.svg"></a>
-                        <a href="#"><img alt="Apple App store" class="img-fluid"
-                                         src="images/app-store-apple-f-1-f-919205-b.svg"></a>
+<!--                        <a href="#"><img alt="Apple App store" class="img-fluid"-->
+<!--                                         src="images/app-store-apple-f-1-f-919205-b.svg"></a>-->
                     </div>
                 </div>
             </div>
@@ -413,12 +481,11 @@
 </script>
 <!--            plugin for the sidedrawer-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
 <!--     script for the sideDrawer starts here -->
 <script type="text/javascript">
     $(document).ready(function () {
-        $("#sidebar").mCustomScrollbar({
-            theme: "minimal"
-        });
 
         $(' #dismiss, .overlay').on('click', function () {
             // hide sidebar
@@ -439,6 +506,8 @@
 </script>
 <!--        script for the sideDrawer ends here -->
 
+
+<!--            Dropdown menu Scripts starts here -->
 <script>
     $(document).ready(function () {
         $("#country").change(function () {
@@ -450,10 +519,71 @@
                 $("#city").html("<option selected>Choose...</option>");
             }
         });
+        $("#major").change(function () {
+            var val =$(this).val();
+            if(val == "Construction"){
+
+                $("#minor").html("<option selected>Choose...</option> <option value='Senior Construction Worker'>Senior Construction Worker</option> <option value='Ceramic & tile'>Ceramic & tile</option><option value='Painting'>Painting</option>");
+            }
+            else {
+                $("#minor").html("<option selected>Choose...</option>");
+
+            }
+        });
+
     });
 
 
-
 </script>
+<!--        Drop Down menu script ends here-->
+
+
+<!--            form manipulation script starts here-->
+<script>
+    var currentTab = 0; // Current tab is set to be the first tab (0)
+    showTab(currentTab); // Display the current tab
+
+    function showTab(n) {
+        // This function will display the specified tab of the form ...
+        var x = document.getElementsByClassName("formdata");
+        if (n == 0) {
+            document.getElementById("prevBtn").style.display = "none";
+        } else {
+            document.getElementById("prevBtn").style.display = "inline";
+        }
+        if (n == (x.length - 1)) {
+            document.getElementById("nextBtn").innerHTML = "Submit";
+        } else {
+            document.getElementById("nextBtn").innerHTML = "Next";
+        }
+
+        x[n].style.display = "block";
+        fixStepIndicator(n)
+    }
+    function nextPrev(n) {
+        // This function will figure out which tab to display
+        var x = document.getElementsByClassName("formdata");
+        if (currentTab >= x.length -1 && n!=-1) {
+            document.getElementById("regForm").submit();
+            return false;
+        }
+        x[currentTab].style.display = "none";
+        currentTab = currentTab + n;
+        showTab(currentTab);
+
+    }
+    function fixStepIndicator(n) {
+        // This function removes the "active" class of all steps...
+        var i, x = document.getElementsByClassName("step");
+        for (i = 0; i < x.length; i++) {
+            x[i].className = x[i].className.replace(" active", "");
+        }
+        //... and adds the "active" class to the current step:
+        x[n].className += " active";
+    }
+</script>
+<!--        form manipulation script ends here-->
+
+
 </body>
 </html>
