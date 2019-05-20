@@ -34,6 +34,23 @@ nav li {
     right: 0;
 }
 
+#sidebar .container{
+
+    padding: 30px 20px 20px 65px;
+}
+ #dismiss , .fa-chevron-left {
+    color: #a8adb7;
+    margin-bottom: 10px ;
+    text-decoration: none;
+}
+
+
+.sidebar-header p {
+    margin-top: 9px;
+    margin-bottom: 30px;
+    color: #a8adb7;
+}
+
 .overlay {
     display: none;
     position: fixed;
