@@ -4,19 +4,6 @@
     color: black;
 }
 
-.Apply-as-a-worker {
-
-    background: rgba(188, 217, 248, 0.31);
-    width: 211px;
-    height: 40px;
-    border-radius: 10px;
-    padding-top: 8px;
-    text-align: center;
-    display: inline-block;
-    color: #043669;
-    margin: 0 auto;
-}
-
 nav li {
     opacity: 1;
     font-size: 16px;
@@ -27,6 +14,68 @@ nav li {
     letter-spacing: normal;
     color: black;
 }
+.wrapper {
+    display: block;
+}
+
+#sidebar {
+    width: 700px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -700px;
+    /* top layer */
+    z-index: 9999;
+    background: white;
+    color: #fff;
+    transition: all 0.3s;
+}
+#sidebar.active{
+    right: 0;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    /* full screen */
+    width: 100vw;
+    height: 100vh;
+    /* transparent black */
+    background: rgba(0, 0, 0, 0.7);
+    /* middle layer, i.e. appears below the sidebar */
+    z-index: 998;
+    opacity: 0;
+    /* animate the transition */
+    transition: all 0.5s ease-in-out;
+}
+/* display .overlay when it has the .active class */
+.overlay.active {
+    display: block;
+    opacity: 0.7;
+}
+#content {
+    width: 100%;
+    /*padding: 20px;*/
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Apply-as-a-worker {
+
+background: rgba(188, 217, 248, 0.31);
+width: 211px;
+height: 40px;
+border-radius: 10px;
+padding-top: 8px;
+text-align: center;
+display: inline-block;
+color: #043669;
+margin: 0 auto;
+}
+
 
 .Apply-as-a-worker:hover {
     background: rgba(188, 217, 248, 1);
@@ -119,6 +168,7 @@ nav li {
     margin-bottom: -2rem;
     border-radius: 10px;
     text-align: center;
+    margin-top: 50px;
 }
 
 .greenBlock .content {

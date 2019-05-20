@@ -1,271 +1,351 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140482093-1"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140482093-1"></script>
+<!--     Google analytics script starts here -->
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-140482093-1');
     </script>
+<!--     Google analytics script ends here -->
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap" rel="stylesheet">
-    <link rel="icon"
-          type="image/png"
-          href="images/favicon.ico">
+    <link href="images/favicon.ico"
+          rel="icon"
+          type="image/png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"
+          rel="stylesheet">
+    <title>Ana Mehani</title>
 
 </head>
-<title>Ana Mehani</title>
-<body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container">
-            <a href="index.html" class="navbar-brand ">
-                <img src="images/am-logo-c.svg" alt="anamehani" height="40px">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
-                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse text-center" id="navbarToggler">
-                <ul class="navbar-nav mr-auto mt-2  mt-lg-0 navbar-center">
-                    <li class="nav-item active ">
-                        <a class="nav-link ml-md-4" href="#">How it works</a>
+<body>
+
+<div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+
+        <div class="sidebar-header">
+            <h3>Bootstrap Sidebar</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+            <p>Dummy Heading</p>
+            <li class="active">
+                <a aria-expanded="false" data-toggle="collapse" href="#homeSubmenu">Home</a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="#">Home 1</a>
                     </li>
-                    <li class="nav-item  ml-md-4">
-                        <a class="nav-link" href="#">Services</a>
+                    <li>
+                        <a href="#">Home 2</a>
                     </li>
-                    <li class="nav-item  ml-md-4">
-                        <a class="nav-link" href="#">About us</a>
-                    </li>
-                    <li class="nav-item  ml-md-4">
-                        <a class="nav-link" href="#">Help & Support</a>
+                    <li>
+                        <a href="#">Home 3</a>
                     </li>
                 </ul>
-                <a href="#" class="Apply-as-a-worker navbar-center "> Apply as a worker </a>
-            </div>
-        </div>
+            </li>
+            <li>
+                <a href="#">About</a>
+                <a aria-expanded="false" data-toggle="collapse" href="#pageSubmenu">Pages</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="#">Page 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Page 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Page 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Portfolio</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
     </nav>
-</header>
-<div class="Find-Your-Next-Work ">
-    <img class="img-fluid float-right" width="40%" src="images/group-13.png">
-    <div class="container mb-5 ">
-        <h1 class="pt-md-5">Your Next Pro at Your Fingertip!
-        </h1>
-        <p>
-            Having an issue at your home/office?
-            Looking for a nearby Expert in "Electricity, Plumbing, Conditioning, Carpentry, Painting, and Satellite?" to
-            get your things done?
-        </p>
-        <h5>Download it now</h5>
-        <div class="d-flex">
-            <a href="#"><img class="img-fluid " src="images/app-store-google-4-d-63-c-31-a-3-e.svg"
-                             alt="Google App store"></a>
-            <a href="#"><img class="img-fluid mx-3 mb-5" src="images/app-store-apple-f-1-f-919205-b.svg"
-                             alt="Apple App store"></a>
-        </div>
-    </div>
-</div>
+<!--        all content -->
+    <div id="content">
+<!--        content starts here-->
+<!--        header-->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container">
+                    <a class="navbar-brand " href="index.html">
+                        <img alt="anamehani" height="40px" src="images/am-logo-c.svg">
+                    </a>
+                    <button aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                            data-target="#navbarToggler" data-toggle="collapse" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-<div class="container ">
-    <div class="row  its-pretty-simple">
-        <div class="col-md-6 col-sm-12 col-12 simple-background clearfix order-last order-md-first">
-            <img class="img-fluid mx-auto my-auto pt-5" src="images/mobile-list.png" alt="Anamehani application"
-                 style="height: auto; width: 70%; display: block">
-        </div>
-        <div class="col-md-6 col-sm-12 col-12  pt-5 text-md-left text-center mx-auto">
-            <div class="content">
-                <h1>Find the best service provider nearby!</h1>
-                <p>It's pretty simple to use and book a Pro in only 3 steps..</p>
+                    <div class="collapse navbar-collapse text-center" id="navbarToggler">
+                        <ul class="navbar-nav mr-auto mt-2  mt-lg-0 navbar-center">
+                            <li class="nav-item active ">
+                                <a class="nav-link ml-md-4" href="#">How it works</a>
+                            </li>
+                            <li class="nav-item  ml-md-4">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item  ml-md-4">
+                                <a class="nav-link" href="#">About us</a>
+                            </li>
+                            <li class="nav-item  ml-md-4">
+                                <a class="nav-link" href="#">Help & Support</a>
+                            </li>
+                        </ul>
+                        <a class="Apply-as-a-worker navbar-center " href="#" id="sidebarCollapse"> Apply as a
+                            worker </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+<!--            header ends here-->
 
+<!--        Your next pro at your finertip starts here-->
+        <div class="Find-Your-Next-Work ">
+            <img class="img-fluid float-right" src="images/group-13.png" width="40%">
+            <div class="container mb-5 ">
+                <h1 class="pt-md-5">Your Next Pro at Your Fingertip!
+                </h1>
+                <p>
+                    Having an issue at your home/office?
+                    Looking for a nearby Expert in "Electricity, Plumbing, Conditioning, Carpentry, Painting, and
+                    Satellite?" to
+                    get your things done?
+                </p>
                 <h5>Download it now</h5>
-                <a href="#"><img class="img-fluid mr-sm-3 mr-0"
-                                 src="images/app-store-google-4-d-63-c-31-a-3-e.svg"
-                                 alt="Google App store"></a>
-                <a href="#"><img class="img-fluid" src="images/app-store-apple-f-1-f-919205-b.svg"
-                                 alt="Apple App store"></a>
+                <div class="d-flex">
+                    <a href="#"><img alt="Google App store" class="img-fluid "
+                                     src="images/app-store-google-4-d-63-c-31-a-3-e.svg"></a>
+                    <a href="#"><img alt="Apple App store" class="img-fluid mx-3 mb-5"
+                                     src="images/app-store-apple-f-1-f-919205-b.svg"></a>
+                </div>
             </div>
         </div>
-    </div>
+<!--        Your next pro at your finertip ends here-->
 
-    <div class="row pt-5 ">
-        <div class="col-12  text-center ">
-            <h1 class="mx-auto font-weight-bold mb-5 ">What Media says ?</h1>
-            <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
-                <ol class="carousel-indicators ">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                </ol>
+<!--        container for rest of content without footer starts here -->
+        <div class="container ">
 
-                <div class="carousel-inner ">
-                    <div class="carousel-item active">
-                        <div class="d-flex">
-                            <div class="d-block mx-auto float-left ">
-                                <a href="https://www.wamda.com/2017/05/putting-yemens-crossroads-online-anamehani"
-                                   target="_blank"><img class="   mx-auto img-fluid " src="images/wamda.png"
-                                                        alt="First slide"></a>
-                            </div>
-                            <div class="d-block mx-auto float-left ">
-                                <a href="https://www.forbes.com/sites/elizabethmacbride/2017/06/30/for-a-yemeni-entrepreneur-facebook-is-a-tool-and-a-lifeline-of-hope/#6a9b7e733824"
-                                   target="_blank"><img class="   mx-auto img-fluid " src="images/forbes.png"
-                                                         alt="Third slide"></a>
-                            </div>
-                            <div class="d-block mx-auto float-left ">
-                                <a href="http://www.redherring.com/features/amid-humanitarian-tragedy-entrepreneurship-kept-alive-yemen/"
-                                   target="_blank"><img class="   mx-auto img-fluid " src="images/RED.png"
-                                                        alt="Second slide"></a>
-                            </div>
-                            <div class="d-block mx-auto float-left ">
-                                <a href="https://medium.com/@swilliams_72877/amid-a-humanitarian-tragedy-entrepreneurship-is-being-kept-alive-in-yemen-3f19913f5d47"
-                                   target="_blank"><img class="   mx-auto img-fluid " src="images/Medium.png"
-                                                        alt="Second slide"></a>
-                            </div>
-                            <div class="d-block mx-auto float-left ">
-                                <a href="https://www.huffingtonpost.com/entry/between-despair-and-hope-a-yemeni-entrepreneurs-story_us_5a2a34a0e4b022ec613b80f0"
-                                   target="_blank"><img class="   mx-auto img-fluid" src="images/HuffPost.png"
-                                                        alt="Second slide"></a>
-                            </div>
-                        </div>
+<!--            find the best service starts here-->
+            <div class="row  its-pretty-simple">
+                <div class="col-md-6 col-sm-12 col-12 simple-background clearfix order-last order-md-first">
+                    <img alt="Anamehani application" class="img-fluid mx-auto my-auto pt-5" src="images/mobile-list.png"
+                         style="height: auto; width: 70%; display: block">
+                </div>
+                <div class="col-md-6 col-sm-12 col-12  pt-5 text-md-left text-center mx-auto">
+                    <div class="content">
+                        <h1>Find the best service provider nearby!</h1>
+                        <p>It's pretty simple to use and book a Pro in only 3 steps..</p>
+
+                        <h5>Download it now</h5>
+                        <a href="#"><img alt="Google App store"
+                                         class="img-fluid mr-sm-3 mr-0"
+                                         src="images/app-store-google-4-d-63-c-31-a-3-e.svg"></a>
+                        <a href="#"><img alt="Apple App store" class="img-fluid"
+                                         src="images/app-store-apple-f-1-f-919205-b.svg"></a>
                     </div>
-                    <div class="carousel-item">
-                        <div class="mx-auto  d-flex ">
-                            <div class="d-block mx-auto float-left ">
-                                <img class=" mx-auto img-fluid" src="images/arabia.png" alt="First slide">
-                            </div>
-                            <div class="d-block mx-auto float-left">
-                                <a href="https://www.weforum.org/agenda/2017/05/startups-changing-arab-world"
-                                   target="_blank"><img class="  mx-auto img-fluid" src="images/worldEconomic.png"
-                                                        alt="Third slide"></a>
-                            </div>
-                            <div class="d-block mx-auto float-left">
-                                <a href="https://www.wamda.com/2017/05/putting-yemens-crossroads-online-anamehani"
-                                   target="_blank"><img class="   mx-auto img-fluid " src="images/wamda.png"
-                                                        alt="First slide"></a>
-                            </div>
-                            <div class="d-block mx-auto float-left">
-                                <a href="https://www.forbes.com/sites/elizabethmacbride/2017/06/30/for-a-yemeni-entrepreneur-facebook-is-a-tool-and-a-lifeline-of-hope/#6a9b7e733824"
-                                   target="_blank"><img class="   mx-auto img-fluid " src="images/forbes.png"
-                                                         alt="Third slide"></a>
-                            </div>
-                            <div class="d-block mx-auto float-left">
-                                <a href="http://www.redherring.com/features/amid-humanitarian-tragedy-entrepreneurship-kept-alive-yemen/"
-                                   target="_blank"><img class=" mx-auto img-fluid " src="images/RED.png"
-                                                        alt="Second slide"></a>
-                            </div>
-                        </div>
-                    </div>
-                        <div class="carousel-item">
-                            <div class="mx-auto d-flex">
-                                <div class="d-block mx-auto float-left">
-                                    <a href="http://www.itp.net/" target="_blank"><img
-                                            class=" float-left mx-auto img-fluid" src="images/Itp.png"
-                                            alt="Third slide"></a>
-                                </div>
-                                <div class="d-block mx-auto float-left">
-                                    <a href="https://www.tech-wd.com/wd/2017/02/15/anamehani/" target="_blank"><img
-                                            class=" float-left mx-auto img-fluid" src="images/techWorld.png"
-                                            alt="First slide"></a>
-                                </div>
-                                <div class="d-block mx-auto float-left">
-                                    <a href="https://io.hsoub.com/culture/20672-%D8%A7%D9%86%D8%A7-%D9%85%D9%87%D9%86%D9%8A-%D8%B4%D8%A8%D9%83%D8%A9-%D8%A5%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9-%D9%85%D9%87%D9%86%D9%8A%D8%A9-%D8%AA%D8%B1%D8%A8%D8%B7-%D8%A7%D9%84%D9%85%D9%87%D9%86%D9%8A%D9%8A%D9%86-%D8%A8%D8%A3%D8%B5%D8%AD%D8%A7%D8%A8-%D8%A7%D9%84%D8%B9%D9%85%D9%84"
-                                       target="_blank"><img class="float-left mx-auto img-fluid" src="images/io.png"
-                                                            alt="Second slide"></a>
-                                </div>
-                                <div class="d-block mx-auto float-left">
-                                    <a href="http://www.althawranews.net/?article_id=393927" target="_blank"><img
-                                            class=" float-left mx-auto img-fluid" src="images/thawra.png"
-                                            alt="Second slide"></a>
-                                </div>
-                                <div class="d-block mx-auto float-left">
-                                    <img class=" float-left mx-auto img-fluid" src="images/arabia.png"
-                                         alt="Second slide">
+                </div>
+            </div>
+<!--            find the best service ends here-->
+
+<!--            carousel starts here-->
+            <div class="row pt-5 ">
+                <div class="col-12  text-center ">
+                    <h1 class="mx-auto font-weight-bold mb-5 ">What Media says ?</h1>
+                    <div class="carousel slide " data-ride="carousel" id="carouselExampleIndicators">
+                        <ol class="carousel-indicators ">
+                            <li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
+                            <li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
+                            <li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
+                            <li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
+                        </ol>
+
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active">
+                                <div class="d-flex">
+                                    <div class="d-block mx-auto float-left ">
+                                        <a href="https://www.wamda.com/2017/05/putting-yemens-crossroads-online-anamehani"
+                                           target="_blank"><img alt="First slide" class="   mx-auto img-fluid "
+                                                                src="images/wamda.png"></a>
+                                    </div>
+                                    <div class="d-block mx-auto float-left ">
+                                        <a href="https://www.forbes.com/sites/elizabethmacbride/2017/06/30/for-a-yemeni-entrepreneur-facebook-is-a-tool-and-a-lifeline-of-hope/#6a9b7e733824"
+                                           target="_blank"><img alt="Third slide" class="   mx-auto img-fluid "
+                                                                src="images/forbes.png"></a>
+                                    </div>
+                                    <div class="d-block mx-auto float-left ">
+                                        <a href="http://www.redherring.com/features/amid-humanitarian-tragedy-entrepreneurship-kept-alive-yemen/"
+                                           target="_blank"><img alt="Second slide" class="   mx-auto img-fluid "
+                                                                src="images/RED.png"></a>
+                                    </div>
+                                    <div class="d-block mx-auto float-left ">
+                                        <a href="https://medium.com/@swilliams_72877/amid-a-humanitarian-tragedy-entrepreneurship-is-being-kept-alive-in-yemen-3f19913f5d47"
+                                           target="_blank"><img alt="Second slide" class="   mx-auto img-fluid "
+                                                                src="images/Medium.png"></a>
+                                    </div>
+                                    <div class="d-block mx-auto float-left ">
+                                        <a href="https://www.huffingtonpost.com/entry/between-despair-and-hope-a-yemeni-entrepreneurs-story_us_5a2a34a0e4b022ec613b80f0"
+                                           target="_blank"><img alt="Second slide" class="   mx-auto img-fluid"
+                                                                src="images/HuffPost.png"></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="mx-auto  d-flex">
-                                <div class="d-block mx-auto float-left">
-                                    <a href="https://www.startupbusiness.it/anamehani-startup-che-cambiano-il-mondo/91445/"
-                                       target="_blank"><img class=" float-left mx-auto img-fluid"
-                                                            src="images/startupBusiness.png"
-                                                            alt="First slide"></a>
+                            <div class="carousel-item">
+                                <div class="mx-auto  d-flex ">
+                                    <div class="d-block mx-auto float-left ">
+                                        <img alt="First slide" class=" mx-auto img-fluid" src="images/arabia.png">
+                                    </div>
+                                    <div class="d-block mx-auto float-left">
+                                        <a href="https://www.weforum.org/agenda/2017/05/startups-changing-arab-world"
+                                           target="_blank"><img alt="Third slide"
+                                                                class="  mx-auto img-fluid"
+                                                                src="images/worldEconomic.png"></a>
+                                    </div>
+                                    <div class="d-block mx-auto float-left">
+                                        <a href="https://www.wamda.com/2017/05/putting-yemens-crossroads-online-anamehani"
+                                           target="_blank"><img alt="First slide" class="   mx-auto img-fluid "
+                                                                src="images/wamda.png"></a>
+                                    </div>
+                                    <div class="d-block mx-auto float-left">
+                                        <a href="https://www.forbes.com/sites/elizabethmacbride/2017/06/30/for-a-yemeni-entrepreneur-facebook-is-a-tool-and-a-lifeline-of-hope/#6a9b7e733824"
+                                           target="_blank"><img alt="Third slide" class="   mx-auto img-fluid "
+                                                                src="images/forbes.png"></a>
+                                    </div>
+                                    <div class="d-block mx-auto float-left">
+                                        <a href="http://www.redherring.com/features/amid-humanitarian-tragedy-entrepreneurship-kept-alive-yemen/"
+                                           target="_blank"><img alt="Second slide" class=" mx-auto img-fluid "
+                                                                src="images/RED.png"></a>
+                                    </div>
                                 </div>
-                                <div class="d-block mx-auto float-left">
-                                    <a href="https://arabic.arabianbusiness.com/entrepreneurship/2017/apr/17/438041"
-                                       target="_blank"><img class="  float-left mx-auto img-fluid"
-                                                            src="images/arabiabussiness.png"
-                                                            alt="Third slide"></a>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="mx-auto d-flex">
+                                    <div class="d-block mx-auto float-left">
+                                        <a href="http://www.itp.net/" target="_blank"><img
+                                                alt="Third slide" class=" float-left mx-auto img-fluid"
+                                                src="images/Itp.png"></a>
+                                    </div>
+                                    <div class="d-block mx-auto float-left">
+                                        <a href="https://www.tech-wd.com/wd/2017/02/15/anamehani/" target="_blank"><img
+                                                alt="First slide" class=" float-left mx-auto img-fluid"
+                                                src="images/techWorld.png"></a>
+                                    </div>
+                                    <div class="d-block mx-auto float-left">
+                                        <a href="https://io.hsoub.com/culture/20672-%D8%A7%D9%86%D8%A7-%D9%85%D9%87%D9%86%D9%8A-%D8%B4%D8%A8%D9%83%D8%A9-%D8%A5%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9-%D9%85%D9%87%D9%86%D9%8A%D8%A9-%D8%AA%D8%B1%D8%A8%D8%B7-%D8%A7%D9%84%D9%85%D9%87%D9%86%D9%8A%D9%8A%D9%86-%D8%A8%D8%A3%D8%B5%D8%AD%D8%A7%D8%A8-%D8%A7%D9%84%D8%B9%D9%85%D9%84"
+                                           target="_blank"><img alt="Second slide" class="float-left mx-auto img-fluid"
+                                                                src="images/io.png"></a>
+                                    </div>
+                                    <div class="d-block mx-auto float-left">
+                                        <a href="http://www.althawranews.net/?article_id=393927" target="_blank"><img
+                                                alt="Second slide" class=" float-left mx-auto img-fluid"
+                                                src="images/thawra.png"></a>
+                                    </div>
+                                    <div class="d-block mx-auto float-left">
+                                        <img alt="Second slide" class=" float-left mx-auto img-fluid"
+                                             src="images/arabia.png">
+                                    </div>
                                 </div>
-                                <div class="d-block mx-auto float-left">
-                                    <a href="#"><img class="  float-left mx-auto img-fluid" src="images/arageek.png"
-                                                     alt="Second slide"></a>
-                                </div>
-                                <div class="d-block mx-auto float-left">
-                                    <a href="http://entrepreneuralarabiya.com/2017/02/21/%D9%85%D9%86%D8%B0-%D8%A7%D9%86%D8%B7%D9%84%D8%A7%D9%82%D9%87%D8%A7-%D9%88%D9%81%D8%B1%D8%AA-%D8%A3%D9%86%D8%A7-%D9%85%D9%87%D9%86%D9%8A-797-%D9%81%D8%B1%D8%B5%D8%A9-%D8%B9%D9%85%D9%84%D8%8C/"
-                                       target="_blank"><img class="  float-left mx-auto"
-                                                            src="images/entrepreneur.png"
-                                                            alt="Second slide"></a>
-                                </div>
-                                <div class="d-block mx-auto float-left">
-                                    <a href="https://www.tech-wd.com/wd/2017/02/15/anamehani/" target="_blank"><img
-                                            class="  float-left mx-auto" src="images/techWorld.png"
-                                            alt="Second slide"></a>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="mx-auto  d-flex">
+                                    <div class="d-block mx-auto float-left">
+                                        <a href="https://www.startupbusiness.it/anamehani-startup-che-cambiano-il-mondo/91445/"
+                                           target="_blank"><img alt="First slide"
+                                                                class=" float-left mx-auto img-fluid"
+                                                                src="images/startupBusiness.png"></a>
+                                    </div>
+                                    <div class="d-block mx-auto float-left">
+                                        <a href="https://arabic.arabianbusiness.com/entrepreneurship/2017/apr/17/438041"
+                                           target="_blank"><img alt="Third slide"
+                                                                class="  float-left mx-auto img-fluid"
+                                                                src="images/arabiabussiness.png"></a>
+                                    </div>
+                                    <div class="d-block mx-auto float-left">
+                                        <a href="#"><img alt="Second slide" class="  float-left mx-auto img-fluid"
+                                                         src="images/arageek.png"></a>
+                                    </div>
+                                    <div class="d-block mx-auto float-left">
+                                        <a href="http://entrepreneuralarabiya.com/2017/02/21/%D9%85%D9%86%D8%B0-%D8%A7%D9%86%D8%B7%D9%84%D8%A7%D9%82%D9%87%D8%A7-%D9%88%D9%81%D8%B1%D8%AA-%D8%A3%D9%86%D8%A7-%D9%85%D9%87%D9%86%D9%8A-797-%D9%81%D8%B1%D8%B5%D8%A9-%D8%B9%D9%85%D9%84%D8%8C/"
+                                           target="_blank"><img alt="Second slide"
+                                                                class="  float-left mx-auto"
+                                                                src="images/entrepreneur.png"></a>
+                                    </div>
+                                    <div class="d-block mx-auto float-left">
+                                        <a href="https://www.tech-wd.com/wd/2017/02/15/anamehani/" target="_blank"><img
+                                                alt="Second slide" class="  float-left mx-auto"
+                                                src="images/techWorld.png"></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
+<!--                carousel ends here-->
 
-        </div>
-        <div class="row pt-5">
-            <div class="col-12 greenBlock mt-2 ">
-                <div class="content mx-auto pb-5 text-center clearfix">
-                    <h1 class="pt-5">Join as a worker and start gaining money</h1>
-                    <p>A funnel is a digital process that turns your visitors into interested parties and
-                        enthusiastic customers step by step.</p>
-                    <a href="#" class="Apply-as-a-worker2  "> Apply as a worker </a>
+<!--            greeen block starts here-->
+            <div class="row pt-5">
+                <div class="col-12 greenBlock  ">
+                    <div class="content mx-auto pb-5 text-center clearfix">
+                        <h1 class="pt-5">Join as a worker and start gaining money</h1>
+                        <p>A funnel is a digital process that turns your visitors into interested parties and
+                            enthusiastic customers step by step.</p>
+                        <a class="Apply-as-a-worker2  " href="#"> Apply as a worker </a>
+                    </div>
                 </div>
             </div>
+<!--                green blocks ends here-->
         </div>
-    </div>
-    <footer class="footer">
-        <div class="container pt-5 ">
-            <div class="row">
-                <div class="col-md-5 col-sm-6 text-md-left text-center mx-auto">
-                    <img src="images/am-logo-w.svg" alt="" class="img-fluid w-50 ">
-                    <p class="pt-3"> Anamehni is an online services market that connects customers with experienced local service providers </p>
-                </div>
+<!--             container for rest of content without footer ends here-->
 
-                <div class="col-md-4 col-sm-6 text-md-left text-center mx-auto">
-                    <h3>Useful links</h3>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <ul >
-                                <a href="#">
-                                    <li>Main</li>
-                                </a>
-                                <a href="#">
-                                    <li>About us</li>
-                                </a>
-                                <a href="#">
-                                    <li>our Services</li>
-                                </a>
-                                <a href="#">
-                                    <li>jobs</li>
-                                </a>
-                            </ul>
-                        </div>
+<!--        footer starts here-->
+        <footer class="footer">
+            <div class="container pt-5 ">
+                <div class="row">
+                    <div class="col-md-5 col-sm-6 text-md-left text-center mx-auto">
+                        <img alt="" class="img-fluid w-50 " src="images/am-logo-w.svg">
+                        <p class="pt-3"> Anamehni is an online services market that connects customers with experienced
+                            local service providers </p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 text-md-left text-center mx-auto">
+                        <h3>Useful links</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul>
+                                    <a href="#">
+                                        <li>Main</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>About us</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>our Services</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>jobs</li>
+                                    </a>
+                                </ul>
+                            </div>
                             <div class="col-md-6 col-6 text-md-left text-center mx-auto">
                                 <ul>
                                     <a href="#">
@@ -281,16 +361,56 @@
                             </div>
                         </div>
                     </div>
-                <div class="col-md-3 col-sm-12 text-md-left text-center mx-auto">
-                    <h3> Contact us</h3>
-                    <p>E-mail : <a href="mailto:info@anamehani.com">info@anamehani.com</a></p>
+                    <div class="col-md-3 col-sm-12 text-md-left text-center mx-auto">
+                        <h3> Contact us</h3>
+                        <p>E-mail : <a href="mailto:info@anamehani.com">info@anamehani.com</a></p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-</body>
+        </footer>
+<!--        footer ends here -->
+    </div>
+<!--    all content -->
+</div>
+<!--        don't remove overlay for the sidedrawer-->
+<div class="overlay"></div>
+<!--        don't remove overlay for the sidedrawer-->
+
+<!--            jquery lib-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+
+<!--            bootstrap library-->
+<script crossorigin="anonymous"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+</script>
+<!--            plugin for the sidedrawer-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+<!--     script for the sideDrawer starts here -->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#sidebar").mCustomScrollbar({
+            theme: "minimal"
+        });
+
+        $('.overlay').on('click', function () {
+            // hide sidebar
+            $('#sidebar').removeClass('active');
+            // hide overlay
+            $('.overlay').removeClass('active');
+        });
+
+        $('#sidebarCollapse').on('click', function () {
+            // open sidebar
+            $('#sidebar').addClass('active');
+            // fade in the overlay
+            $('.overlay').addClass('active');
+            $('.collapse.in').toggleClass('in');
+            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        });
+    });
+</script>
+<!--        script for the sideDrawer ends here -->
+
+</body>
 </html>
